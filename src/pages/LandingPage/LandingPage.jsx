@@ -9,7 +9,6 @@ export default function LandingPage() {
       <div className="landingPage-imgSlider">
         <ImageSlider />
       </div>
-      {/* <Destination /> */}
     </div>
   );
 }
