@@ -1,0 +1,76 @@
+.cardContainer{
+    display: inline-block;
+    width: fit-content;
+    background-color: rgb(215, 215, 215);
+    position: relative;
+    /* margin:20px; */
+}
+.imgContainer{
+    position: relative;
+    /* width: fit-content; */
+}
+.imgContainer img{
+    width: 400px;
+    object-fit: cover;
+}
+.textContainer{
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    /* width: 100%;
+    height: 100%; */
+    bottom: 0px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0;
+    transition-property: padding-bottom;
+    transition-duration: .3s;
+}
+.textContainer:hover{
+    padding-bottom: 25%;
+    transition-property: padding-bottom;
+    transition-duration: .3s;
+    /* transition-timing-function: cubic-bezier(.4,0,.2,1); */
+}
+.text{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.25;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 12px;
+}
+.gradient{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0) 100%);
+}
+@media only screen and (max-width: 1250px){
+    .imgContainer img{
+        width: 320px;
+    }
+    .text{  
+        font-size: 21px;
+    }
+}
+/* @media only screen and (max-width: 950px){
+    .imgContainer img{
+        width: 250px;
+    }
+    .text{  
+        font-size: 20px;
+    }
+} */
+@media only screen and (max-width: 640px){
+    .imgContainer img{
+        width: 450px;
+    }
+    .text{  
+        font-size: 30px;
+    }
+}

@@ -4,7 +4,9 @@
     display: flex;
     justify-content: center;
     height: 800px;
+    padding-right: 70px;
     margin: 100px auto;
+
 }
 
 .destination-wrapper{
@@ -84,7 +86,7 @@
     background-color: #77328b;
     transition: 0.7s;
 }
-@media only screen and (max-width: 920px){
+/* @media only screen and (max-width: 920px){
     .text-container{
         right: -3%;
         top: 5%;
@@ -121,4 +123,4 @@
         margin:0 auto;
       }
 
-}
+} */

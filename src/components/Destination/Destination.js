@@ -27,7 +27,7 @@ export const Destination = () => {
               blue waters.
             </div>
             <a
-              class="btn-new btn btn-default "
+              className="btn-new btn btn-default "
               href="https://www.cinnamonhotels.com/cinnamondhonvelimaldives"
             >
               Discover More

@@ -1,0 +1,41 @@
+.offerContainer{
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 120px;
+
+}
+.imgCardWrapper{
+    display: grid;
+    gap: 50px 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sectionTitle{
+    display: block;
+    font-family: PlayfairDisplay,Georgia,Times New Roman,serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #333;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 1250px){
+    /* .offerContainer{
+        width: 800px;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    } */
+    .imgCardWrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 820px){
+ 
+    .imgCardWrapper{
+        grid-template-columns: 1fr;
+    }
+    .sectionTitle{
+        width: 360px;
+    }
+}

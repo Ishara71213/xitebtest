@@ -1,6 +1,9 @@
 import "./ImageSlider.css";
+// hooks and libraries
 import { useState, useEffect } from "react";
+// data
 import { ImageSliderContent } from "./imageSliderContent";
+// icons and images
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export const ImageSlider = () => {
