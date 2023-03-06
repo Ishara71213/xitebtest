@@ -1,0 +1,216 @@
+.footerContainer{
+    
+    position: relative;
+    background: url(../../public/images/footer-bg2.png) bottom center no-repeat;
+    padding-bottom: 190px;
+    background-size: contain;
+    /* height: 700px; */
+}
+.footerWrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navigationContainer{
+    max-height: 560px;
+    display: grid;
+    grid-template-columns: 320px 260px ; 
+}
+
+.class0{
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start:1;
+    grid-column-end:2;
+}
+
+
+.fotterTitle{
+    font-family: PlayfairDisplay,Georgia,Times New Roman,serif;
+    font-style: italic;
+    color: #77328b;
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.footerLinksSocialMedia{
+    display: block;
+    list-style-type: none;
+    display: flex;
+}
+
+.footerLinksSocialMedia a{
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    color: #9a9a9a;
+    padding: 14px 0;
+    display: block;
+    transition: color 0.2s linear;
+}
+.icon{
+    font-size: 24px;
+    padding-right: 25px;
+}
+
+.footerLinksSocialMedia a:hover{
+    color: #77328b;
+    transition: color 0.5s linear;
+}
+.emailAdd{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+}
+.formControl{
+    padding: 30px;
+    font-size: 15px;
+    height: 21px;
+    width: 370px;
+    border-radius: 0px;
+    color: #9a9a9a;
+    box-shadow: 0 0 0 0px;
+    outline: none;
+    border: 1px solid #d3d4e4;
+    border-right: 0px;
+}
+.input-group-btn{
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btn-default{
+    padding: 13px 30px 11px 30px;
+    font-family: "BodoniStd-BookItalic", serif;
+    font-size: 20px;
+    border-radius: 0;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: #252776;
+    color: #FFFFFF;
+}
+.btn-footer{
+    padding: 27px 25px 25px 25px;
+    background: #FFFFFF;
+    border: solid 1px #d3d5e5;
+    border-left: 0px;
+    margin-left: -1px;
+}
+.btn-footer:hover{
+    background-color: rgba(37, 39, 118, 0.2);
+    border-left: 0px;
+}
+.custCheckbox{
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkbox{
+    margin-top: 30px;
+    width: 75%;
+    color: #9a9a9a;
+    font-size: 12px;
+    line-height: 16px;
+}
+.checkbox a{
+    text-decoration: none;
+    color: #1b1b1b;
+    transition: color 0.5s linear;
+}
+.custCheckbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.custCheckbox .checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 10px;
+    top: 6px;
+    width: 5px;
+    height: 10px;
+    border: solid #77328b;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+@media only screen and (max-width: 1250px){
+    .footerWrapper{ 
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+    .footerContainer{
+        padding-bottom: 140px;
+    }
+    .custCheckbox{
+        max-width: 500px;
+    }
+    .navigationContainer{
+        max-height: 560px;
+        grid-template-columns: 500px 500px ; 
+    }
+}
+@media only screen and (max-width: 1120px){
+    .footerContainer{
+        padding-bottom: 140px;
+    }
+    .footerWrapper{ 
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .navigationContainer{
+        max-height: 560px;
+        display: block;
+    }
+    .footerRight{
+        padding-top: 400px;
+    }
+}
+
+
+
+

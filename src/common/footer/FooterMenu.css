@@ -1,0 +1,34 @@
+.footerMenuContainer{
+    display: inline-block;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+.fotterTitle{
+    font-family: PlayfairDisplay,Georgia,Times New Roman,serif;
+    font-style: italic;
+    color: #77328b;
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.footerLinks{
+    display: block;
+    list-style-type: none;
+    
+}
+
+.link a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    color: #9a9a9a;
+    padding: 14px 0;
+    display: block;
+    transition: color 0.2s linear;
+
+}
+
+.link a:hover{
+    color: #1b1b1b;
+    transition: color 0.5s linear;
+}
