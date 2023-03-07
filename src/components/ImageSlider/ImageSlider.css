@@ -64,9 +64,12 @@
 
 .slider-title{
     color: #fff;
-    font-family: PlayfairDisplay,Georgia,Times New Roman,serif;
-    font-size: 36px;
-    line-height: 48px;
+    /* font-family: PlayfairDisplay,Georgia,Times New Roman,serif; */
+    /* font-size: 36px; */
+    font-family: "BodoniStd-BookItalic", serif;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 52px;
     margin-bottom: 8px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -86,4 +89,13 @@
     white-space: nowrap;
     user-select: none;
     transition: 1s;
+}
+.bookingBar-container{
+    
+    z-index: 10;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -594px;
+
 }

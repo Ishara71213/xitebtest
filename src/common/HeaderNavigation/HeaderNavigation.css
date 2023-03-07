@@ -12,7 +12,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 12px;
-    color: var(--textcolor-primary); 
+    color: var(--tertiary-color); 
 }
 .headerOne ul{
     display: flex;
@@ -23,24 +23,23 @@
     display: flex;
     align-items: center;
     padding: 10px 8px;
-    color: var(--textcolor-primary);
 }
 
 .linkNav::after{
     content: "";
     width: 1px;
     height: 16px;
-    border: solid var(--textcolor-primary);
+    border: solid var(--tertiary-color); ;
     border-width: 0 1.5px 0 0;
     padding-left:16px;
 }
 
 .icon-pa{
     padding-right: 10px;
-    color: var(--textcolor-primary);
+    color: var(--tertiary-color);
 }
 .headerTwo{
-    background-color: var(--textcolor-primary);
+    background-color: var(--tertiary-color);
   
 }
 .headerTwo ul{

@@ -1,12 +1,13 @@
 :root{
   --main-backgroundColor:#fff;
   --primary-color:#333;
-
+  --secondry-color:#77328b;
+  --tertiary-color:#252776;
   /* text colors */
   --textcolor-primary:#333;
+  --textcolor-secondry:#666;
   --textcolor-light:#fff;
-  /* button colors */
-  --button-hover:#275a81;
+
   /* overlay colors */
   --color-overlay:#414242A1;
  
@@ -17,7 +18,7 @@
   padding: 0;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: BodoniStd-BookItalic,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

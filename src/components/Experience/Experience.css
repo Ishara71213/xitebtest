@@ -19,16 +19,19 @@
     flex-direction: column;
 }
 .title{
-    font-family: PlayfairDisplay,Georgia,Times New Roman,serif;
+    font-family: "BodoniStd-BookItalic", serif;
+    font-style: italic;
     font-weight: 400;
     font-size: 48px;
     line-height: 37px;
-    color: #333;
+    color: var(--secondry-color);
     text-align: center;
     padding: 0 20px;
     padding-bottom: 28px;
 }
 .subTitle{
+    color: var(--secondry-color);
+    font-style: italic;
     font-size: 1.25rem;
     line-height: 1.75rem;
     text-align: center;

@@ -1,13 +1,14 @@
 import "./HeaderNavigation.css";
 import { FaUser, FaGlobe, FaMobile, FaChevronDown } from "react-icons/fa";
 import { HeaderContent } from "./HeaderContent";
+import cinnamonlogo from "../../images/cinnamonlogo.svg";
 
 export const HeaderNavigation = () => {
   return (
     <div className="header-slider">
       <div className="header">
         <div className="headerOne">
-          <img src="/images/shangrila_en2021.webp" width={180} alt="logo" />
+          <img src={cinnamonlogo} width={180} alt="logo" />
           <ul>
             <li className="linkNav">
               <FaUser className="icon-pa" fontSize={23} /> Sign In

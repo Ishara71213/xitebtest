@@ -17,11 +17,11 @@
     
 }
 .title-destination{
-    font-family: "BodoniStd-BookItalic", serif;
+    font-family: BodoniStd-BookItalic, serif;
     font-style: italic;
     text-align: center;
     font-size: 70px;
-    color: #77328b;
+    color: var(--secondry-color);
     letter-spacing: -1px;
     font-weight: 500;
     line-height: 1.1;

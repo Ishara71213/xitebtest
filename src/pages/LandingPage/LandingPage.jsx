@@ -3,6 +3,7 @@ import "./LandingPage.css";
 import { ImageSlider } from "../../components/ImageSlider/ImageSlider";
 import { Destination } from "../../components/Destination/Destination";
 import { Experience } from "../../components/Experience/Experience";
+import { OfferSection } from "../../components/OfferSection/OfferSection";
 
 export default function LandingPage() {
   return (
@@ -12,6 +13,7 @@ export default function LandingPage() {
       </div>
       <Destination />
       <Experience />
+      <OfferSection />
     </div>
   );
 }

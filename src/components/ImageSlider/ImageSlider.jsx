@@ -1,4 +1,6 @@
 import "./ImageSlider.css";
+// components
+import { BookingBar } from "../BookingBar/BookingBar";
 // hooks and libraries
 import { useState, useEffect } from "react";
 // data
@@ -76,6 +78,9 @@ export const ImageSlider = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="bookingBar-container">
+        <BookingBar />
       </div>
     </div>
   );
